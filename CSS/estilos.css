@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(192, 207, 255);
+    height: auto;
+}
+
+#cabecalho {
+    background-color: rgb(172, 49, 172);
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+#cabecalho a:link{
+    color: black;
+}
+
+#cabecalho a:hover{
+    color:  rgb(192, 207, 255);
+}
+
+#cabecalho a:active{
+    color: rgb(233, 57, 218);
+}
+.cabecalhoitens{
+    text-align: center;
+}
+
+.cabecalhoitem{
+    padding: 20px;
+}
+
+.cabecalhonome{
+    padding: 10px;
+    font-family: 'Supermercado One', cursive;
+    font-size: 30px;
+}
+
+#principal{
+    margin-top: 0px;
+    background-image: url("../IMG/imagemfundo.png");
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+}
+
+.titulonome{
+    font-family: 'Supermercado One', cursive;
+    padding-left: 0px;
+    padding-top: 35px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+#imagens{
+    display: flex;
+}
+
+.minhafoto{
+    border: 5px solid;
+    height: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+}
+
+.frase{
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+}
+
+#corpo{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+#sobremim{
+    font-family: 'Supermercado One', cursive;
+    padding-top: 140px;
+    padding-left: 20px;
+}
+
+.sobre{
+    padding: 20px;
+    color: purple;
+}
+
+.sobretexto{
+    padding: 20px;
+    text-align: start;
+}
+
+#meuportfolio{
+    font-family: 'Supermercado One', cursive;
+    padding-top: 140px;
+    padding-left: 20px;
+}
+
+.portfolio{
+    padding: 20px;
+    padding-right: 20px;
+    color: purple;
+}
+
+#meucontato{
+    font-family: 'Supermercado One', cursive;
+    padding-top: 140px;
+    padding-left: 20px;
+}
+
+.contato{
+    padding: 20px;
+    text-align: center;
+    color: purple;
+}
+
+.contatotexto{
+    padding: 20px;
+    padding-right: 20px;
+}
+
+footer{
+    padding: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
+    color:  rgb(172, 49, 172);
+}
+
+a:active{
+    color: rgb(233, 57, 218);
+}
